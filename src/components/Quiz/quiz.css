@@ -1,0 +1,15 @@
+.quiz-container {
+    font-family: 'Reggae One', cursive;
+    width: 60vw;
+    height: 60vh;
+    min-width: 20rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgba(100,100,100,0.4);
+    overflow: hidden;
+}

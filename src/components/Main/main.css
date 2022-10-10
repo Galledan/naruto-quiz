@@ -1,0 +1,54 @@
+.info-container {
+    width: 60vw;
+    height: 60vh;
+    min-width: 20rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(100,200,200);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgb(100 100 100 / 40%);
+    overflow: hidden;
+    font-family: 'Reggae One', cursive;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info-container .info-title {
+    font-size: 2vw;
+}
+
+.info-container p {
+    margin: 5px auto;
+    font-size: 1vw;
+}
+
+.info-textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    border: none;
+    outline: none;
+    padding: 0.75rem;
+    font-size: 1vw;
+    font-family: 'Reggae One', cursive;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.level button{
+    font-family: "Ninja Naruto";
+    border: none;
+    border-radius: 5px;
+    height: 5vh;
+    width: 10vw;
+    margin: 10px;
+    cursor: pointer;
+}

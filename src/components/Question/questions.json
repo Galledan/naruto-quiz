@@ -1,0 +1,226 @@
+[
+  {
+    "geninQuestions": [
+      {
+        "questionText": "What is Naruto's full name?",
+        "a": "Namikaze Naruto",
+        "b": "Uzumaki Naruto",
+        "c": "Uchiha Naruto",
+        "d": "Sarutobi Naruto",
+        "correct": "b"
+      },
+      {
+        "questionText": "What is Naruto's father's duty on the village",
+        "a": "",
+        "b": "",
+        "c": "Hokage",
+        "d": "",
+        "correct": "c"
+      },
+      {
+        "questionText": "Naruto's coin purse is a plushie of which animal?",
+        "a": "Frog",
+        "b": "Fox",
+        "c": "Dog",
+        "d": "Monkey",
+        "correct": "a"
+      },
+      {
+        "questionText": "Which animal Tsunade was able to summon?",
+        "a": "Namikaze Naruto",
+        "b": "Uzumaki Naruto",
+        "c": "Uchiha Naruto",
+        "d": "Sarutobi Naruto",
+        "correct": "b"
+      },
+      {
+        "questionText": "Who has a crush on Naruto?",
+        "a": "Sakura",
+        "b": "Ino",
+        "c": "Tenten",
+        "d": "Hinata",
+        "correct": "b"
+      }
+    ]
+  },
+
+  {
+    "chuninQuestions": [
+      {
+        "questionText": "What is the ultimate jutsu Nagato used before he died?",
+        "a": "Gedo Chibaku Tensei ",
+        "b": "Gedo Shinra Tensei",
+        "c": "Gedo Rinne Tensei",
+        "d": "Gedo Sharin Tensei",
+        "correct": "c"
+      },
+      {
+        "questionText": "Who founded Akatsuki?",
+        "a": "Madara",
+        "b": "Nagato",
+        "c": "Yahiko",
+        "d": "Jiraiya",
+        "correct": "c"
+      },
+      {
+        "questionText": "What is Naruto's basic chakra nature?",
+        "a": "Fire",
+        "b": "Wind",
+        "c": "Water",
+        "d": "Lightning",
+        "correct": "b"
+      },
+      {
+        "questionText": "What is name of Choji's clan",
+        "a": "Namikaze Naruto",
+        "b": "Uzumaki Naruto",
+        "c": "Uchiha Naruto",
+        "d": "Sarutobi Naruto",
+        "correct": "b"
+      },
+      {
+        "questionText": "What is the name of nine tailed beast?",
+        "a": "Gyuki",
+        "b": "Matatabi",
+        "c": "Saiken",
+        "d": "Kurama",
+        "correct": "d"
+      }
+    ]
+  },
+
+  {
+    "joninQuestions": [
+      {
+        "questionText": "How did Danzo tried to manipulate the Kage meeting?",
+        "a": "Using Izanami",
+        "b": "Using Izanagi",
+        "c": "Using Tsukuyomi",
+        "d": "Using Koto-Amatsukami",
+        "correct": "b"
+      },
+      {
+        "questionText": "Who uses the sacrificial jutsu to stop Orochimaru during Chunin Exam?",
+        "a": "Kakashi",
+        "b": "Hiruzen",
+        "c": "Naruto",
+        "d": "Sasuke",
+        "correct": "b"
+      },
+      {
+        "questionText": "What is Kakashi's special move which he used on Naruto during training? (Bringing his two hand together)",
+        "a": "One-hundred years of Pain",
+        "b": "Two-hundred years of Pain",
+        "c": "One-thousand years of Pain",
+        "d": "Two-thousand years of Pain",
+        "correct": "c"
+      },
+      {
+        "questionText": "How many times did Naruto fail the graduation test from the Academy?",
+        "a": "Never",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "correct": "d"
+      },
+      {
+        "questionText": "How many answers did Naruto answer correctly in the first phase of the chunin exam?",
+        "a": "Zero",
+        "b": "One",
+        "c": "Two",
+        "d": "Three",
+        "correct": "a"
+      }
+    ]
+  },
+
+  {
+    "anbuQuestions": [
+      {
+        "questionText": "After Gai defeated Kisame, who tried to extract information from Kisame?",
+        "a": "Gai",
+        "b": "Genma",
+        "c": "Aoba",
+        "d": "Kotetsu",
+        "correct": "c"
+      },
+      {
+        "questionText": "What is name of Choji's clan?",
+        "a": "Akimichi",
+        "b": "Aburame",
+        "c": "Akatsuchi",
+        "d": "Akamaru",
+        "correct": "a"
+      },
+      {
+        "questionText": "How old was Itachi when he graduated from the academy and became a Genin?",
+        "a": "Five",
+        "b": "Six",
+        "c": "Seven",
+        "d": "Eight",
+        "correct": "c"
+      },
+      {
+        "questionText": "What is the name of five tailed beast?",
+        "a": "Shukaku",
+        "b": "Isobu",
+        "c": "Saiken",
+        "d": "Kokuo",
+        "correct": "d"
+      },
+      {
+        "questionText": "What is the name of the puppet Kankuro carries on his back?",
+        "a": "Canary",
+        "b": "Crow",
+        "c": "Vulture",
+        "d": "Hawk",
+        "correct": "b"
+      }
+    ]
+  },
+
+  {
+    "kageQuestions": [
+      {
+        "questionText": "Shortly after the Chunin Exam Preliminairies, which Proctor is killed?",
+        "a": "Kotetsu",
+        "b": "Hayate",
+        "c": "Izumo",
+        "d": "Genma",
+        "correct": "b"
+      },
+      {
+        "questionText": "What is Iruka's surname?",
+        "a": "Ukino",
+        "b": "Unimo",
+        "c": "Umino",
+        "d": "Ucimo",
+        "correct": "c"
+      },
+      {
+        "questionText": "Who summoned the five kage for the five kage summit?",
+        "a": "Hokage",
+        "b": "Mizukage",
+        "c": "Tsuchikage",
+        "d": "Raikage",
+        "correct": "d"
+      },
+      {
+        "questionText": "How old was Kakashi when he graduated from the academy and became a Genin?",
+        "a": "Five",
+        "b": "Six",
+        "c": "Seven",
+        "d": "Eight",
+        "correct": "a"
+      },
+      {
+        "questionText": "What does the symbol on Gaara's forehead mean?",
+        "a": "Hate",
+        "b": "Love",
+        "c": "Revenge",
+        "d": "Mercy",
+        "correct": "b"
+      }
+    ]
+  }
+]

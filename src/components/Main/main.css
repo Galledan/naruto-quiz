@@ -16,12 +16,12 @@
 }
 
 .info-container .info-title {
-    font-size: 2vw;
+    font-size: 2vmax;
 }
 
 .info-container p {
-    margin: 5px auto;
-    font-size: 1vw;
+    margin: 0.5vmax auto;
+    font-size: 1.2vmax;
 }
 
 .info-textbox {
@@ -51,4 +51,39 @@
     width: 10vw;
     margin: 10px;
     cursor: pointer;
+}
+
+.not-loaded-container{
+    width: 20vw;
+    height: 30vh;
+    min-width: 20rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(100,200,200);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px rgb(100 100 100 / 40%);
+    overflow: hidden;
+    font-family: 'Reggae One', cursive;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.loading-img {
+    width: 10vw;
+    animation: loading 1.5s infinite linear;
+}
+
+.loading-text{
+    font-family: 'Reggae One', cursive;
+}
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }

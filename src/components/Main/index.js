@@ -1,61 +1,87 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./main.css";
 import Quiz from "../Quiz";
 
 function Main() {
   const [isQuizActive, setQuizActive] = useState(false);
-  const [quizLevel, setQuizLevel] = useState()
+  const [quizLevel, setQuizLevel] = useState();
+  const [loading, setLoading] = useState(false);
 
   function activateQuiz(level) {
     setQuizActive(true);
-    setQuizLevel(level)
+    setQuizLevel(level);
   }
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 8000);
+  }, []);
 
   return (
     <div className="main-container">
-     {!isQuizActive && <div className="info-container">
-        <div className="info-title">
-          <span>Welcome to the Naruto Quiz!</span>
-        </div>
-        <div className="info-textbox">
-          <p>Rules of the Quiz are on the below</p>
-          <p>1. You will have 15 seconds for questions</p>
-          <p>2. Once you pick an answer there is no turning back</p>
-          <p>
-            3. You have to guess all correct answers for each level to access to
-            other level
-          </p>
-        </div>
-        <div className="buttons">
-          <div className="level">
-            <button onClick={() => activateQuiz('genin')} id="geninBtn">
-              Genin Level
-            </button>
-          </div>
-          <div className="level">
-            <button onClick={() => activateQuiz('chunin')} id="chuninBtn">
-              Chunin Level
-            </button>
-          </div>
 
-          <div className="level">
-            <button onClick={() =>  activateQuiz('jonin')} id="joninBtn">
-              Jonin Level
-            </button>
-          </div>
-          <div className="level">
-            <button onClick={() =>  activateQuiz('anbu')} id="anbuBtn">
-              Anbu Level
-            </button>
-          </div>
-          <div className="level">
-            <button onClick={() =>  activateQuiz('kage')} id="kageBtn">
-              Kage Level
-            </button>
-          </div>
+      {
+        loading ?  
+        
+        <div className="not-loaded-container">
+          <img className="loading-img" src={require("../../images/sharingan.png")} alt="loading"/>
+          <h1 className="loading-text">Loading</h1>
         </div>
-      </div>}
-      {isQuizActive && <div className="quiz-container"><Quiz quizStatus={isQuizActive} quizlevel={quizLevel}/></div>}
+        
+        :
+        
+        <div className="loaded-container">
+        {!isQuizActive && (
+          <div className="info-container">
+            <div className="info-title">
+              <span>Welcome to the Naruto Quiz!</span>
+            </div>
+            <div className="info-textbox">
+              <p>Rules of the Quiz are on the below</p>
+              <p>1. You will have 15 seconds for questions</p>
+              <p>2. Once you pick an answer there is no turning back</p>
+              <p>
+                3. You have to guess all correct answers for each level to
+                access to other level
+              </p>
+            </div>
+            <div className="buttons">
+              <div className="level">
+                <button onClick={() => activateQuiz("genin")} id="geninBtn">
+                  Genin Level
+                </button>
+              </div>
+              <div className="level">
+                <button onClick={() => activateQuiz("chunin")} id="chuninBtn">
+                  Chunin Level
+                </button>
+              </div>
+
+              <div className="level">
+                <button onClick={() => activateQuiz("jonin")} id="joninBtn">
+                  Jonin Level
+                </button>
+              </div>
+              <div className="level">
+                <button onClick={() => activateQuiz("anbu")} id="anbuBtn">
+                  Anbu Level
+                </button>
+              </div>
+              <div className="level">
+                <button onClick={() => activateQuiz("kage")} id="kageBtn">
+                  Kage Level
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+        {isQuizActive && 
+          <div className="quiz-container">
+            <Quiz quizStatus={isQuizActive} quizlevel={quizLevel} />
+          </div>}
+        </div>}
     </div>
   );
 }

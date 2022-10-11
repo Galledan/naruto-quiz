@@ -8,6 +8,8 @@ function Question(props) {
   const [category, setCategory] = useState("genin");
   const [score, setScore] = useState(0);
 
+
+
   const questionCheck = () => {
     if (currQuestion <= 4) {
       if (selectedAnswer === category[currQuestion].correct) {
@@ -25,11 +27,11 @@ function Question(props) {
 
   function createQuestion() {
     setLevel(props.quizlevel);
-    if (level === "genin") setCategory(questions[0].geninQuestions);
-    if (level === "chunin") setCategory(questions[1].chuninQuestions);
-    if (level === "jonin") setCategory(questions[2].joninQuestions);
-    if (level === "anbu") setCategory(questions[3].anbuQuestions);
-    if (level === "kage") setCategory(questions[4].kageQuestions);
+    if (level === "Genin") setCategory(questions[0].geninQuestions);
+    if (level === "Chunin") setCategory(questions[1].chuninQuestions);
+    if (level === "Jonin") setCategory(questions[2].joninQuestions);
+    if (level === "Anbu") setCategory(questions[3].anbuQuestions);
+    if (level === "Kage") setCategory(questions[4].kageQuestions);
   }
 
   useEffect(() => {
@@ -44,7 +46,9 @@ function Question(props) {
     <div className="question-container">
      {currQuestion <= 4 && <div className="question-header">
         <div className="question">
+          <div className="question-text">
           <h3>{category[currQuestion].questionText}</h3>
+          </div>
         </div>
         <div className="answers">
           <div
@@ -80,7 +84,8 @@ function Question(props) {
 
       {currQuestion >= 5 && <div className="quizend-container">
         <h1>Quiz ended your score is {score}</h1>
-        <button onClick={() => endQuiz()}>deneme</button>
+        {score > 4 && <h1>Congrats you finished {level} level with success</h1>}
+        <button className="endQuiz" onClick={() => endQuiz()}>Return Main Page</button>
       </div>}
     </div>
   );

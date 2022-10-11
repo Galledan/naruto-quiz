@@ -16,7 +16,7 @@ function Main() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 8000);
+    }, 2000);
   }, []);
 
   return (
@@ -40,7 +40,7 @@ function Main() {
             </div>
             <div className="info-textbox">
               <p>Rules of the Quiz are on the below</p>
-              <p>1. You will have 15 seconds for questions</p>
+              <p>1. You will have 15 seconds for questions(not implemented yet) </p>
               <p>2. Once you pick an answer there is no turning back</p>
               <p>
                 3. You have to guess all correct answers for each level to
@@ -49,28 +49,28 @@ function Main() {
             </div>
             <div className="buttons">
               <div className="level">
-                <button onClick={() => activateQuiz("genin")} id="geninBtn">
+                <button onClick={() => activateQuiz("Genin")} id="geninBtn">
                   Genin Level
                 </button>
               </div>
               <div className="level">
-                <button onClick={() => activateQuiz("chunin")} id="chuninBtn">
+                <button onClick={() => activateQuiz("Chunin")} id="chuninBtn">
                   Chunin Level
                 </button>
               </div>
 
               <div className="level">
-                <button onClick={() => activateQuiz("jonin")} id="joninBtn">
+                <button onClick={() => activateQuiz("Jonin")} id="joninBtn">
                   Jonin Level
                 </button>
               </div>
               <div className="level">
-                <button onClick={() => activateQuiz("anbu")} id="anbuBtn">
+                <button onClick={() => activateQuiz("Anbu")} id="anbuBtn">
                   Anbu Level
                 </button>
               </div>
               <div className="level">
-                <button onClick={() => activateQuiz("kage")} id="kageBtn">
+                <button onClick={() => activateQuiz("Kage")} id="kageBtn">
                   Kage Level
                 </button>
               </div>

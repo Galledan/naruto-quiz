@@ -7,17 +7,49 @@
 
 .answers {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .answer {
-    padding: 10px;
-    background-color: white;
+    padding: 1vw;
+    background-image: url(../../images/scroll.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
     font-size: 1rem;
     cursor: pointer;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     text-align: center;
     letter-spacing: 2px;
     font-size: 1rem;
     border-radius: 5px;
+}
+
+.question {
+    background-image: url(../../images/scroll2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 20vh;
+    width: 40vw;
+}
+
+.question-text h3{
+    text-align: center;
+    margin: 7.5vh 6vw 8vh 8vw;
+    font-size: 1.2vw;
+}
+
+.quizend-container {
+    text-align: center;
+}
+
+.quizend-container h1 {
+    margin: 2vh;
+}
+
+.endQuiz{
+    
+    font-family: 'Reggae One', cursive;
 }

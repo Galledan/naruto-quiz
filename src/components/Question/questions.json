@@ -11,10 +11,10 @@
       },
       {
         "questionText": "What is Naruto's father's duty on the village",
-        "a": "",
-        "b": "",
+        "a": "Ramen Chef",
+        "b": "Teacher",
         "c": "Hokage",
-        "d": "",
+        "d": "Messenger",
         "correct": "c"
       },
       {
@@ -27,10 +27,10 @@
       },
       {
         "questionText": "Which animal Tsunade was able to summon?",
-        "a": "Namikaze Naruto",
-        "b": "Uzumaki Naruto",
-        "c": "Uchiha Naruto",
-        "d": "Sarutobi Naruto",
+        "a": "Frog",
+        "b": "Slug",
+        "c": "Snake",
+        "d": "Pig",
         "correct": "b"
       },
       {
@@ -39,7 +39,7 @@
         "b": "Ino",
         "c": "Tenten",
         "d": "Hinata",
-        "correct": "b"
+        "correct": "d"
       }
     ]
   },
